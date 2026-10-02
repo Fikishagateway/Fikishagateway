@@ -30,10 +30,10 @@ export const Header = () => {
             aria-label="Primary"
             className="pointer-events-none absolute inset-0 hidden items-center justify-center lg:flex"
           >
-            <ul className="pointer-events-auto flex items-center gap-6">
+            <ul className="pointer-events-auto flex items-center gap-6 text-[13px] tracking-[-.01em]">
               {HeaderContent.map((item: HeaderType) => (
                 <li key={item.label}>
-                  <Link to={item.href} className="whitespace-nowrap">
+                  <Link to={item.href} className="whitespace-nowrap hover:text-[#2c9a58]">
                     {item.label}
                   </Link>
                 </li>
@@ -42,7 +42,7 @@ export const Header = () => {
           </nav>
 
           <div className="relative z-10 flex items-center gap-4">
-            <div className="hidden items-center gap-4 md:flex">
+            <div className="hidden items-center gap-4 md:flex text-[13px] tracking-[-.01em]">
               <Link to="/">Log in</Link>
               <Link
                 to="/"
