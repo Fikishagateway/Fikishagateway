@@ -1,7 +1,7 @@
 export interface HeaderProps {
     title: string;
     header: string;
-    subheader: string;
+    subheader?: string;
 }
 export default function Header({ title, header, subheader }: HeaderProps) {
     return (
@@ -10,8 +10,8 @@ export default function Header({ title, header, subheader }: HeaderProps) {
                 {title}
             </div>
             <h2 className="text-[clamp(2.5625rem,5vw,4.125rem)] leading-[1.05] tracking-[-0.03em]">
-                {header} <br />
-                <em className="text-[#2c9a58] font-georgia font-normal">{subheader}</em>
+                {header} {subheader && <br />}
+                {subheader && <em className="text-[#2c9a58] font-georgia font-normal">{subheader}</em>}
             </h2>
         </div>
     )
