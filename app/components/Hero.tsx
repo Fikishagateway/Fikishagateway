@@ -12,15 +12,15 @@ export const Hero = () => {
                         <p className="flex flex-row items-center gap-2">
                             <span className="p-1.5 bg-[#b9ef5e] rounded-full">
                             </span>
-                            <span className="text-[10px] font-bold uppercase text-[#2c9a58]">
+                            <span className="text-[10px] font-extrabold uppercase text-[#2c9a58] tracking-[.14em] gap-2">
                                 Power, without the waiting
                             </span>
                         </p>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-4 text-center">
-                        <h1 className="font-bold text-[clamp(3.5rem,7vw,6.5rem)] leading-[0.9] tracking-[-0.04em]text-center">
+                        <h1 className="text-center font-bold text-[clamp(3.5rem,7vw,6.5rem)] leading-[0.9] tracking-[-0.04em]">
                             Stay powered. <br />
-                            <em className="font-[Georgia, serif] font-normal text-[#2c9a58]">
+                            <em className="font-georgia font-normal text-[#2c9a58]">
                                 Stay ahead.
                             </em>
                         </h1>
