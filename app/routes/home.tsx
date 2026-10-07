@@ -4,6 +4,7 @@ import { Hero } from "../components/Hero";
 import FikishaDifference from "../components/FikishaDifference";
 import HowItWorks from "~/components/HowItWorks";
 import OurFee from "~/components/home/OurFee";
+import ServiceFees from "~/components/home/ServiceFees";
 import Faq from "~/components/home/Faq";
 
 export function meta({}: Route.MetaArgs) {
@@ -20,6 +21,7 @@ export default function Home() {
       <FikishaDifference />
       <HowItWorks/>
       <OurFee />
+      <ServiceFees />
       <Faq />
     </div>
   );

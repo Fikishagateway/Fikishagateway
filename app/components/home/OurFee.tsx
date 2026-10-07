@@ -5,7 +5,7 @@ import { Link } from "react-router";
 export default function OurFee() {
     return (
         <div>
-            <div className="py-36.25">
+            <div className="pt-36.25 pb-10">
                 <div className="container mx-auto px-4 lg:px-0">
                     <div className="grid grid-cols-1 items-end gap-7.5 rounded-[25px] bg-[#edf7eb] px-6 py-10 sm:px-10 md:grid-cols-3 md:px-17.5 md:py-15.5">
                         <div className="md:col-span-2">
