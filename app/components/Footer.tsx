@@ -29,6 +29,9 @@ export default function Footer() {
                         <p>
                             Arusha, Tanzania
                         </p>
+                        <p>
+                            <Link to="/terms-and-conditions">Terms and Conditions</Link>
+                        </p>
                     </div>
                 </div>
             </div>
