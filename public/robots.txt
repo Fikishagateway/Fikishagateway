@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fikishagateway.co.tz/sitemap.xml

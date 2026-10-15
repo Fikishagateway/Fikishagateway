@@ -49,7 +49,7 @@ export const Hero = () => {
                 </div>
 
                 <div className="pt-20 flex flex-col items-center justify-center">
-                    <img src="/images/hero/fikisha-hero-screens.png" alt="Fikisha Screenshoots" className="w-155 h-auto"/>
+                    <img src="/images/hero/fikisha-hero-screens.png" alt="Fikisha mobile app screens for buying TANESCO electricity and submeter tokens, confirming payment, and generating a tamper token" className="w-155 h-auto"/>
                     <p className="text-[#7b8983] text-[12px] pt-8.5 px-2 flex flex-row items-center gap-2">
                         <span className="text-[#b0bbb5]">Trusted by</span>
                         <span>

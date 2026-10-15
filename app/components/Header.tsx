@@ -20,7 +20,7 @@ export const Header = () => {
           >
             <img
               src="/images/logo/logo.png"
-              alt="Fikisha"
+              alt="Fikisha, prepaid TANESCO and submeter tokens in Tanzania"
               className="h-10 w-auto"
             />
             <span>Fikisha</span>

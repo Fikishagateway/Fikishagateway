@@ -69,12 +69,12 @@ export default function TermsPage() {
     }
 
     return (
-        <div className="min-h-screen bg-[#f3f6f1] text-[#102820]">
+        <div className="min-h-screen bg-[#f3f6f1] text-[#102820]" lang={lang === "sw" ? "sw" : "en"}>
             <div className="relative overflow-hidden bg-[radial-gradient(120%_80%_at_85%_10%,#8ed14a_0%,#1f7a3a_28%,#0b3a24_58%,#062416_100%)] text-white">
                 <div className="container mx-auto px-4 py-5 lg:px-0">
                     <div className="flex items-center justify-between">
                         <Link to="/" className="flex items-center gap-2">
-                            <img src="/images/logo/logo.png" alt="Fikisha" className="h-9 w-auto" />
+                            <img src="/images/logo/logo.png" alt="Fikisha, prepaid TANESCO and submeter tokens in Tanzania" className="h-9 w-auto" />
                             <span className="text-[15px] font-medium">Fikisha</span>
                         </Link>
                         <Link

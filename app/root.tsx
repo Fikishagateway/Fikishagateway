@@ -11,6 +11,8 @@ import type { Route } from "./+types/root";
 import "./app.css";
 
 export const links: Route.LinksFunction = () => [
+  { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+  { rel: "apple-touch-icon", href: "/images/logo/logo.png" },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
     rel: "preconnect",
@@ -22,6 +24,17 @@ export const links: Route.LinksFunction = () => [
     href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
   },
 ];
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Fikisha | Buy TANESCO & Submeter Tokens in Tanzania" },
+    {
+      name: "description",
+      content:
+        "Buy TANESCO and submeter electricity tokens in one place with Fikisha. Pay in the app or dial *150*50*1#. Tokens arrive by SMS for homes across Tanzania.",
+    },
+  ];
+}
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
