@@ -11,11 +11,11 @@ export default function Footer() {
                             className="relative z-10 flex items-center gap-2"
                         >
                             <img
-                                src="/images/logo/logo.png"
+                                src="/images/logo/fikishalogoTransparent.png"
                                 alt="Fikisha, prepaid TANESCO and submeter tokens in Tanzania"
                                 className="h-10 w-auto"
                             />
-                            <span>Fikisha</span>
+                            {/* <span>Fikisha</span> */}
                         </Link>
                         <p className="text-[13px] leading-[1.4] text-[#687671]">
                             Power, without the waiting.

@@ -11,6 +11,10 @@
   --font-georgia: Georgia, "Times New Roman", Times, ui-serif, serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   @apply bg-white dark:bg-gray-950;

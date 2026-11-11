@@ -5,7 +5,7 @@ import HowItWorksComponent from "./home/HowItWorks";
 
 export default function HowItWorks() {
     return (
-        <div className="bg-[#f7faf5] py-36.25">
+        <div id="how-it-works" className="scroll-mt-24 bg-[#f7faf5] py-36.25">
             <div className="container mx-auto px-4 lg:px-0">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                     <div>

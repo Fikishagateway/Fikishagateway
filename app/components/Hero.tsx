@@ -38,7 +38,7 @@ export const Hero = () => {
                                 </span>
                                 <ArrowRightIcon className="w-4 h-4" />
                             </Link>
-                            <Link to="/" className="text-[#102820] hover:text-[#2c9a58] flex flex-row items-center gap-2">
+                            <Link to="/#how-it-works" className="text-[#102820] hover:text-[#2c9a58] flex flex-row items-center gap-2">
                                 <span>
                                 See how it works
                                 </span>

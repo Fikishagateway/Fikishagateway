@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 export default function UssdCard() {
     return (
-        <div className="pt-12 md:pt-20">
+        <div id="ussd" className="scroll-mt-24 pt-12 md:pt-20">
             <div className="mx-auto max-w-5xl rounded-[20px] bg-[#102820] px-5 py-5 text-white sm:px-7.5 sm:py-6.5">
                 <div className="flex flex-col gap-5 md:flex-row md:items-center md:gap-8">
                     <div className="shrink-0">

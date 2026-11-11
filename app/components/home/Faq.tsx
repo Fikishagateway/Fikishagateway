@@ -10,7 +10,7 @@ import { cn } from "~/lib/utils";
 
 export default function Faq() {
     return (
-        <div className="pb-20">
+        <div id="faq" className="scroll-mt-24 pb-20">
             <div className="container mx-auto px-4 lg:px-0">
                 <div className="max-w-180 mx-auto">
                     <div className="text-center">

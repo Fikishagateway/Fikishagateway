@@ -19,11 +19,11 @@ export const Header = () => {
             onClick={closeMenu}
           >
             <img
-              src="/images/logo/logo.png"
+              src="/images/logo/fikishalogoTransparent.png"
               alt="Fikisha, prepaid TANESCO and submeter tokens in Tanzania"
               className="h-10 w-auto"
             />
-            <span>Fikisha</span>
+            {/* <span>Fikisha</span> */}
           </Link>
 
           <nav

@@ -5,7 +5,7 @@ import type { Difference as DifferenceType } from "../types/Difference";
 
 export default function FikishaDifference() {
     return (
-        <div className="py-20">
+        <div id="why-fikisha" className="scroll-mt-24 py-20">
             <div className="container mx-auto px-4 lg:px-0">
                 <div className="text-center">
                     <Header title="The Fikisha difference" header="Powering your day" subheader="should feel this simple." />

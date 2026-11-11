@@ -3,22 +3,22 @@ import type { Header as HeaderType } from "../types/Header";
 export const Header: HeaderType[] = [
     {
         label: "How it works",
-        href: "/",
+        href: "/#how-it-works",
     },
     {
         label: "Why Fikisha",
-        href: "/",
+        href: "/#why-fikisha",
     },
     {
         label: "Pricing",
-        href: "/",
+        href: "/#pricing",
     },
     {
         label: "USSD",
-        href: "/",
+        href: "/#ussd",
     },
     {
         label: "FAQ",
-        href: "/",
+        href: "/#faq",
     },
 ];
